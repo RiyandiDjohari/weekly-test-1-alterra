@@ -1,13 +1,54 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* Base style */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  color: #333;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.tabs {
+  background-color: #fff;
+  padding: 20px;
+  max-width: 70%;
+  border-bottom: 2px solid #f2f2f2;
+  overflow: hidden;
+  margin: auto;
+}
+
+.tabs ul li a {
+  color: #f1356d;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Content */
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  margin: 20px auto;
+  text-align: start;
+  text-align: justify;
+}
+.content .title {
+  text-align: center;
+  font-weight: bold;
+}
+.content .img-title {
+  width: 300px;
+  margin: 30px;
+  align-self: center;
+}
+.content .img-praktikum {
+  width: 60%;
+  margin: 20px 0;
 }
